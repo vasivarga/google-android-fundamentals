@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">week2</string>
+    <string name="title">Login</string>
+    <string name="buttonNext">Next</string>
+    <string name="textEmail">Email</string>
+    <string name="textTerms">Accept Terms and Conditions</string>
+</resources>

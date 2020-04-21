@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44597A"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/title"
+        android:textColor="@color/green"
+        android:textSize="@dimen/textDimenSmall"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/title_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/title"
+        android:textColor="@color/green"
+        android:textSize="@dimen/textDimenSmall"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#FF9800"
+        android:src="@drawable/ic_launcher_foreground"
+        />
+
+    <EditText
+        android:id="@+id/email_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#DEF4F4F4"
+        />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonNext"
+        android:layout_margin="10dp"
+        android:hint="@string/textEmail"
+        android:padding="@dimen/dimenPaddingMedium"/>
+
+    <CheckBox
+        android:id="@+id/acceptTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="@string/textTerms"
+        />
+
+    <Switch
+        android:id="@+id/notificationSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:padding="@dimen/dimenPaddingMedium"
+        android:layout_gravity="center" />
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="3"
+        android:stepSize="0.5" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radionOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radio1"/>
+        <RadioButton
+            android:id="@+id/radionTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radio1"/>
+
+
+    </RadioGroup>
+</LinearLayout>
