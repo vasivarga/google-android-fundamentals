@@ -4,4 +4,15 @@
     <string name="buttonNext">Next</string>
     <string name="textEmail">Email</string>
     <string name="textTerms">Accept Terms and Conditions</string>
+
+
+    <array name="data">
+        <item>"Cupcake"</item>
+        <item>"Cupcake"</item>
+        <item>"Cupcake"</item>
+        <item>"Cupcake"</item>
+    </array>
+
+
+    <!--    <string-array name="data" />-->
 </resources>
